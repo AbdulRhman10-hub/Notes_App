@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import 'App_Bar_Widget.dart';
+import 'node_item.dart';
 
 class CustomBody extends StatelessWidget {
   const CustomBody({super.key});
@@ -15,9 +16,11 @@ class CustomBody extends StatelessWidget {
            height: 50,
          ),
           Custom_App_Bar(),
+          NodeItem(),
         ],
       ),
     );
   }
 }
+
 
