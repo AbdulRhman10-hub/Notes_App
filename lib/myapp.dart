@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'note_app_view.dart';
-
+import 'features/ui/note_app_view.dart';
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

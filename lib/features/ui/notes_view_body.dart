@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 
-import 'App_Bar_Widget.dart';
-import 'node_item.dart';
+import '../../core/widgets/App_Bar_Widget.dart';
+import '../../core/widgets/NoteListView.dart';
+
 
 class CustomBody extends StatelessWidget {
   const CustomBody({super.key});
