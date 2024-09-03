@@ -17,11 +17,13 @@ class CustomBody extends StatelessWidget {
            height: 50,
          ),
           Custom_App_Bar(),
-          NodeItem(),
+          Expanded(child: NoteListView()),
         ],
       ),
     );
   }
 }
+
+
 
 
