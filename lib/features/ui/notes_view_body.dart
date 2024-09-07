@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:note_app/core/widgets/Search_Icon_Widget.dart';
 
 import '../../core/widgets/App_Bar_Widget.dart';
 import '../../core/widgets/NoteListView.dart';
@@ -16,7 +18,8 @@ class CustomBody extends StatelessWidget {
          SizedBox(
            height: 50,
          ),
-          Custom_App_Bar(),
+          Custom_App_Bar(title: 'Notes',
+            icon: Icons.search ,),
           Expanded(child: NoteListView()),
         ],
       ),
