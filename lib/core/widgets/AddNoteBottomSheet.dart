@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants/constant_colors.dart';
+import '../../constants/constants.dart';
 import 'AddNoteButton.dart';
 import 'CustomTextField.dart';
 

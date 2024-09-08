@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants/constant_colors.dart';
+import '../../constants/constants.dart';
 
 class AddNoteButton extends StatelessWidget {
   const AddNoteButton({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:note_app/constants/constant_colors.dart';
+import 'package:note_app/constants/constants.dart';
 
 class CustomTextField extends StatelessWidget {
   final String hint;
